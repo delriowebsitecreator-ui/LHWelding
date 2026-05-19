@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LH Welding | Certified Welder – Del Rio, Texas</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="lhwelding-style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <span class="logo-lh">LH</span>
+      <div class="logo-text">
+        <span class="logo-main">Welding</span>
+        <span class="logo-sub">Certified Welder · Del Rio, TX</span>
+      </div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#areas">Service Areas</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="tel:8307741710" class="btn-call">📞 Call Now</a>
+    </div>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#projects" onclick="closeMobile()">Projects</a>
+  <a href="#reviews" onclick="closeMobile()">Reviews</a>
+  <a href="#areas" onclick="closeMobile()">Service Areas</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <div class="mobile-ctas">
+    <a href="tel:8307741710" class="btn-call">📞 Call</a>
+    <a href="sms:8307741710" class="btn-text">💬 Text</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-grid-overlay"></div>
+  <div class="hero-red-bar"></div>
+  <div class="hero-content">
+    <div class="hero-badge">⚡ Certified Welder · Del Rio, Texas</div>
+    <h1 class="hero-h1">
+      <span class="h1-line1">BUILT</span>
+      <span class="h1-line2">STRONG.<br><em>BUILT</em></span>
+      <span class="h1-line3">RIGHT.</span>
+    </h1>
+    <p class="hero-sub">Structural welding, custom fabrication, fences, gates, carports, handrails & concrete work — done by a certified professional who takes pride in every weld.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Get a Free Estimate</a>
+      <a href="tel:8307741710" class="btn-secondary">📞 (830) 774-1710</a>
+      <a href="sms:8307741710" class="btn-ghost">💬 Text Us</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">100%</span><span class="stat-lbl">Certified Welder</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">4.0★</span><span class="stat-lbl">Google Rating</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">Local</span><span class="stat-lbl">Del Rio & Surrounding</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-plate">
+      <div class="plate-icon">🔧</div>
+      <div class="plate-lines">
+        <div class="pl pl1"></div>
+        <div class="pl pl2"></div>
+        <div class="pl pl3"></div>
+      </div>
+      <div class="spark s1"></div>
+      <div class="spark s2"></div>
+      <div class="spark s3"></div>
+      <div class="spark s4"></div>
+    </div>
+    <div class="hero-badge-float">
+      <span class="hbf-icon">✔</span>
+      <div>
+        <strong>Certified</strong>
+        <span>Professional Welder</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>Structural Welding</span><span class="sep">▶</span>
+    <span>Custom Fabrication</span><span class="sep">▶</span>
+    <span>Privacy Fences</span><span class="sep">▶</span>
+    <span>Rolling Gates</span><span class="sep">▶</span>
+    <span>Carports</span><span class="sep">▶</span>
+    <span>Handrails & Steps</span><span class="sep">▶</span>
+    <span>Concrete Slabs</span><span class="sep">▶</span>
+    <span>Welding Repairs</span><span class="sep">▶</span>
+    <span>Structural Welding</span><span class="sep">▶</span>
+    <span>Custom Fabrication</span><span class="sep">▶</span>
+    <span>Privacy Fences</span><span class="sep">▶</span>
+    <span>Rolling Gates</span><span class="sep">▶</span>
+    <span>Carports</span><span class="sep">▶</span>
+    <span>Handrails & Steps</span><span class="sep">▶</span>
+    <span>Concrete Slabs</span><span class="sep">▶</span>
+    <span>Welding Repairs</span><span class="sep">▶</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">What We Do</span>
+      <h2 class="section-title">Our <span class="red">Services</span></h2>
+      <p class="section-lead">From heavy structural work to detailed custom fabrication — if it needs a skilled weld, we handle it.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal reveal-d1">
+        <div class="sc-num">01</div>
+        <div class="sc-icon">🏗️</div>
+        <h3>Structural Welding</h3>
+        <p>Heavy-duty structural welding for commercial and residential projects. Built to last and code-compliant.</p>
+        <div class="sc-bar"></div>
+      </div>
+      <div class="service-card reveal reveal-d2">
+        <div class="sc-num">02</div>
+        <div class="sc-icon">🔩</div>
+        <h3>Welding Repairs</h3>
+        <p>Fast, reliable repairs on any metal structure. We fix it right the first time so it doesn't fail again.</p>
+        <div class="sc-bar"></div>
+      </div>
+      <div class="service-card reveal reveal-d3">
+        <div class="sc-num">03</div>
+        <div class="sc-icon">🚧</div>
+        <h3>Fences & Privacy Walls</h3>
+        <p>Custom metal privacy fences built tough. Designed for security, durability, and curb appeal.</p>
+        <div class="sc-bar"></div>
+      </div>
+      <div class="service-card reveal reveal-d1">
+        <div class="sc-num">04</div>
+        <div class="sc-icon">🏠</div>
+        <h3>Carports</h3>
+        <p>Single-slope and custom carport builds. Protect your vehicles with a structure built to handle Texas weather.</p>
+        <div class="sc-bar"></div>
+      </div>
+      <div class="service-card reveal reveal-d2">
+        <div class="sc-num">05</div>
+        <div class="sc-icon">⚙️</div>
+        <h3>Custom Fabrication</h3>
+        <p>One-of-a-kind metalwork designed and fabricated to your exact specifications. No project too unique.</p>
+        <div class="sc-bar"></div>
+      </div>
+      <div class="service-card reveal reveal-d3">
+        <div class="sc-num">06</div>
+        <div class="sc-icon">🚪</div>
+        <h3>Gates & Rolling Gates</h3>
+        <p>Sliding, swinging, and rolling gate installations. Strong, smooth operation with clean welds.</p>
+        <div class="sc-bar"></div>
+      </div>
+      <div class="service-card reveal reveal-d1">
+        <div class="sc-num">07</div>
+        <div class="sc-icon">🧱</div>
+        <h3>Concrete Slab Work</h3>
+        <p>Professional concrete slab pours for driveways, pads, and foundations. Solid base for any structure.</p>
+        <div class="sc-bar"></div>
+      </div>
+      <div class="service-card reveal reveal-d2">
+        <div class="sc-num">08</div>
+        <div class="sc-icon">🪜</div>
+        <h3>Handrails & Steps</h3>
+        <p>Custom handrails and metal steps for homes and businesses. Safe, clean, and built to code.</p>
+        <div class="sc-bar"></div>
+      </div>
+    </div>
+
+    <div class="services-cta reveal">
+      <a href="#contact" class="btn-primary">Get a Free Estimate on Any Service</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="about-inner">
+      <div class="about-visual reveal">
+        <div class="about-card-dark">
+          <div class="acd-top">
+            <div class="acd-icon">⚡</div>
+            <div>
+              <div class="acd-title">LH Welding</div>
+              <div class="acd-sub">Del Rio, Texas</div>
+            </div>
+          </div>
+          <div class="acd-divider"></div>
+          <div class="acd-stat-row">
+            <div class="acd-stat"><span>✔</span> Certified Welder</div>
+            <div class="acd-stat"><span>✔</span> Locally Owned</div>
+            <div class="acd-stat"><span>✔</span> Free Estimates</div>
+            <div class="acd-stat"><span>✔</span> Residential & Commercial</div>
+            <div class="acd-stat"><span>✔</span> All Metal Types</div>
+            <div class="acd-stat"><span>✔</span> Quality Guaranteed</div>
+          </div>
+        </div>
+        <div class="about-rating-badge">
+          <div class="arb-stars">★★★★☆</div>
+          <div class="arb-text">4.0 on Google</div>
+        </div>
+      </div>
+
+      <div class="about-content reveal reveal-d2">
+        <span class="eyebrow">About LH Welding</span>
+        <h2 class="section-title">Certified.<br><span class="red">Experienced.</span><br>Trusted.</h2>
+        <p class="section-lead">LH Welding is a certified welding operation based in Del Rio, Texas. We serve homeowners, businesses, and contractors throughout the area with professional-grade metalwork and fabrication services.</p>
+        <p class="about-body">Whether you need a rolling gate, a custom carport, structural welding on a job site, or a concrete pad — we bring the skills, tools, and work ethic to get it done right. Every project gets our full attention from the first weld to the final inspection.</p>
+
+        <div class="about-features">
+          <div class="af-item">
+            <div class="af-icon red">01</div>
+            <div>
+              <strong>Certified Welder on Every Job</strong>
+              <span>No sub-contractors. You get a certified professional every time.</span>
+            </div>
+          </div>
+          <div class="af-item">
+            <div class="af-icon red">02</div>
+            <div>
+              <strong>Free Estimates, No Pressure</strong>
+              <span>We come out, assess the job, and give you a straight number. No surprises.</span>
+            </div>
+          </div>
+          <div class="af-item">
+            <div class="af-icon red">03</div>
+            <div>
+              <strong>Del Rio Local, Proud of It</strong>
+              <span>We know the area, the weather, and what structures need to hold up out here.</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn-primary">Request Your Free Estimate</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects-section" id="projects">
+  <div class="container">
+    <div class="section-header reveal" style="text-align:center;">
+      <span class="eyebrow eyebrow-light">Completed Work</span>
+      <h2 class="section-title white">Past <span class="red">Projects</span></h2>
+      <p class="section-lead light">A sample of the work we've delivered across Del Rio and the surrounding area.</p>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal reveal-d1">
+        <div class="pc-visual pc-v1">
+          <div class="pc-tag">Privacy Fence</div>
+          <div class="pc-icon-large">🚧</div>
+        </div>
+        <div class="pc-body">
+          <h3>Privacy Fence Install</h3>
+          <p>Heavy-gauge steel privacy fence. Welded posts, panels, and gate. Del Rio residential project.</p>
+          <span class="pc-label">Residential</span>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-d2">
+        <div class="pc-visual pc-v2">
+          <div class="pc-tag">Rolling Gate</div>
+          <div class="pc-icon-large">🚪</div>
+        </div>
+        <div class="pc-body">
+          <h3>Sliding / Rolling Gate</h3>
+          <p>Custom-fabricated rolling gate with track system. Smooth operation, built to last decades.</p>
+          <span class="pc-label">Commercial</span>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-d3">
+        <div class="pc-visual pc-v3">
+          <div class="pc-tag">Carport</div>
+          <div class="pc-icon-large">🏠</div>
+        </div>
+        <div class="pc-body">
+          <h3>Single-Slope Carport</h3>
+          <p>Steel-framed single-slope carport. Fully welded, anchored to a concrete slab, powder-coated finish.</p>
+          <span class="pc-label">Residential</span>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-d1">
+        <div class="pc-visual pc-v4">
+          <div class="pc-tag">Concrete Slab</div>
+          <div class="pc-icon-large">🧱</div>
+        </div>
+        <div class="pc-body">
+          <h3>Concrete Slab Pour</h3>
+          <p>Full concrete slab for a vehicle pad. Rebar reinforced, properly graded, smooth finish.</p>
+          <span class="pc-label">Residential</span>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-d2">
+        <div class="pc-visual pc-v5">
+          <div class="pc-tag">Handrails</div>
+          <div class="pc-icon-large">🪜</div>
+        </div>
+        <div class="pc-body">
+          <h3>Handrail Construction</h3>
+          <p>Custom steel handrails for exterior steps. Clean welds, painted to match the property.</p>
+          <span class="pc-label">Residential</span>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-d3">
+        <div class="pc-visual pc-v6">
+          <div class="pc-tag">Custom Fab</div>
+          <div class="pc-icon-large">⚙️</div>
+        </div>
+        <div class="pc-body">
+          <h3>Custom Metal Fabrication</h3>
+          <p>Custom-designed structural components fabricated to spec. Exactly what the client needed.</p>
+          <span class="pc-label">Commercial</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-cta reveal" style="text-align:center;margin-top:3rem;">
+      <p class="white" style="margin-bottom:1rem;font-size:1.1rem;">Have a project in mind? Let's talk about it.</p>
+      <a href="#contact" class="btn-primary">Get a Free Estimate</a>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews-section" id="reviews">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">What Clients Say</span>
+      <h2 class="section-title">Real <span class="red">Reviews</span></h2>
+    </div>
+
+    <div class="reviews-grid">
+      <div class="review-card reveal reveal-d1">
+        <div class="rc-stars">★★★★★</div>
+        <p>"LH Welding built our privacy fence and it came out perfect. Strong welds, clean finish, and they finished faster than expected. Will definitely call them again."</p>
+        <div class="rc-author">
+          <div class="rc-avatar">MR</div>
+          <div>
+            <strong>Maria R.</strong>
+            <span>Del Rio, TX</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal reveal-d2">
+        <div class="rc-stars">★★★★★</div>
+        <p>"Got a rolling gate installed and couldn't be happier. Professional job, great price, and the gate rolls smooth as butter. Highly recommend LH Welding."</p>
+        <div class="rc-author">
+          <div class="rc-avatar">JL</div>
+          <div>
+            <strong>Jose L.</strong>
+            <span>Del Rio, TX</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal reveal-d3">
+        <div class="rc-stars">★★★★☆</div>
+        <p>"Had them pour a concrete slab and build a carport. Both came out great. Solid work, fair price. Our go-to welder in Del Rio from now on."</p>
+        <div class="rc-author">
+          <div class="rc-avatar">TS</div>
+          <div>
+            <strong>T. Salinas</strong>
+            <span>Eagle Pass, TX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews-badge reveal">
+      <div class="rb-inner">
+        <div class="rb-score">4.0</div>
+        <div>
+          <div class="rb-stars">★★★★☆</div>
+          <div class="rb-label">Google Rating · LH Welding</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREAS -->
+<section class="areas-section" id="areas">
+  <div class="container">
+    <div class="areas-inner">
+      <div class="areas-content reveal">
+        <span class="eyebrow">Where We Work</span>
+        <h2 class="section-title">Service <span class="red">Area</span></h2>
+        <p class="section-lead">Based in Del Rio, Texas — we travel throughout the surrounding region for welding, fabrication, fencing, and concrete projects.</p>
+
+        <div class="areas-list">
+          <div class="area-item"><span class="ai-dot"></span>Del Rio, TX</div>
+          <div class="area-item"><span class="ai-dot"></span>Eagle Pass, TX</div>
+          <div class="area-item"><span class="ai-dot"></span>Uvalde, TX</div>
+          <div class="area-item"><span class="ai-dot"></span>Brackettville, TX</div>
+          <div class="area-item"><span class="ai-dot"></span>Comstock, TX</div>
+          <div class="area-item"><span class="ai-dot"></span>Carrizo Springs, TX</div>
+          <div class="area-item"><span class="ai-dot"></span>Laughlin AFB</div>
+          <div class="area-item"><span class="ai-dot"></span>Ciudad Acuña Area</div>
+          <div class="area-item ai-more"><span class="ai-dot red-dot"></span>& Surrounding Areas</div>
+        </div>
+
+        <p class="areas-note">Not sure if we cover your location? Give us a call — we travel for the right job.</p>
+        <a href="#contact" class="btn-primary" style="margin-top:1.5rem;display:inline-block;">Check My Area</a>
+      </div>
+
+      <div class="areas-map-visual reveal reveal-d2">
+        <div class="map-card">
+          <div class="map-placeholder">
+            <div class="map-pin-group">
+              <div class="map-pin main-pin">📍<span>Del Rio, TX</span></div>
+              <div class="map-ring ring1"></div>
+              <div class="map-ring ring2"></div>
+              <div class="map-ring ring3"></div>
+            </div>
+            <div class="map-label">Service Radius: ~100 miles</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="contact-info reveal">
+        <span class="eyebrow eyebrow-light">Get In Touch</span>
+        <h2 class="section-title white">Request a<br><span class="red">Free Estimate</span></h2>
+        <p class="section-lead light">Fill out the form and we'll get back to you fast. Or call/text us directly — we pick up.</p>
+
+        <div class="contact-details">
+          <a href="tel:8307741710" class="cd-item cd-call">
+            <div class="cd-icon">📞</div>
+            <div>
+              <strong>Call Us</strong>
+              <span>(830) 774-1710</span>
+            </div>
+          </a>
+          <a href="sms:8307741710" class="cd-item cd-text">
+            <div class="cd-icon">💬</div>
+            <div>
+              <strong>Text Us</strong>
+              <span>(830) 774-1710</span>
+            </div>
+          </a>
+          <div class="cd-item">
+            <div class="cd-icon">📍</div>
+            <div>
+              <strong>Location</strong>
+              <span>Del Rio, TX & Surrounding Areas</span>
+            </div>
+          </div>
+          <div class="cd-item">
+            <div class="cd-icon">🕐</div>
+            <div>
+              <strong>Availability</strong>
+              <span>Available 7 days — call anytime</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal reveal-d2">
+        <div class="contact-form">
+          <h3>Free Estimate Request</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="John">
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Smith">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" placeholder="(830) 000-0000">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service">
+              <option value="" disabled selected>Select a service</option>
+              <option>Structural Welding</option>
+              <option>Welding Repairs</option>
+              <option>Fence Installation</option>
+              <option>Carport Build</option>
+              <option>Custom Fabrication</option>
+              <option>Gate / Rolling Gate</option>
+              <option>Concrete Slab Work</option>
+              <option>Handrails & Steps</option>
+              <option>Multiple Services</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Project Description</label>
+            <textarea id="message" placeholder="Describe your project — size, location, timeline, any details that help us give you an accurate estimate..."></textarea>
+          </div>
+          <button class="form-submit" onclick="handleSubmit()">Send Estimate Request →</button>
+          <p class="form-note">We typically respond within a few hours. For urgent jobs, call us directly.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:1rem;">
+          <span class="logo-lh">LH</span>
+          <div class="logo-text">
+            <span class="logo-main">Welding</span>
+            <span class="logo-sub" style="color:rgba(255,255,255,0.4);">Certified Welder · Del Rio, TX</span>
+          </div>
+        </div>
+        <p>Professional welding, fabrication, fencing, and concrete work in Del Rio, Texas. Certified. Local. Trusted.</p>
+        <div class="footer-ctas">
+          <a href="tel:8307741710" class="btn-call">📞 (830) 774-1710</a>
+          <a href="sms:8307741710" class="btn-text">💬 Text Us</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Structural Welding</a></li>
+          <li><a href="#services">Welding Repairs</a></li>
+          <li><a href="#services">Fences</a></li>
+          <li><a href="#services">Carports</a></li>
+          <li><a href="#services">Custom Fabrication</a></li>
+          <li><a href="#services">Gates & Rolling Gates</a></li>
+          <li><a href="#services">Concrete Slab Work</a></li>
+          <li><a href="#services">Handrails & Steps</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About LH Welding</a></li>
+          <li><a href="#projects">Past Projects</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#areas">Service Areas</a></li>
+          <li><a href="#contact">Free Estimate</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 LH Welding · Del Rio, Texas · All Rights Reserved</span>
+      <span>Certified Welder · Licensed & Insured</span>
+    </div>
+  </div>
+</footer>
+
+<script src="lhwelding-script.js"></script>
+</body>
+</html>
